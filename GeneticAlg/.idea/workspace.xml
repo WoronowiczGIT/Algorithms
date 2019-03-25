@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df65de4e-86db-4804-a82c-4de8f3d6cac0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler/src/sample/Controllers/Controllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler/src/sample/GameGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler/src/sample/Models/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler/src/sample/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/BoardMenager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/FitnessFuncion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/BoardServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/BoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/Sortowania.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/src/main/java/SDA/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/src/main/java/SDA/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/src/main/java/SDA/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/src/test/java/SDA/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/src/test/java/SDA/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sortowania/src/test/java/SDA/SelectionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PodstawyPowtorka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PodstawyPowtorka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PodstawyPowtorka/src/com/company/Generyki/MyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PodstawyPowtorka/src/com/company/Generyki/MyMap.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2131277339">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="java" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11654" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11654" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FitnessFuncion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="124" column="10" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="10" />
+              <folding>
+                <element signature="method#processSurvivors#0;class#FitnessFuncion#0" />
+                <element signature="method#breedCompetitors#0;class#FitnessFuncion#0" />
+                <element signature="method#mutateBaby#0;class#FitnessFuncion#0" />
+                <element signature="method#getSurvivors#0;class#FitnessFuncion#0" />
+                <element signature="method#generateOneCompetitor#0;class#FitnessFuncion#0" />
+                <element signature="method#generateCompetitors#0;class#FitnessFuncion#0" />
+                <element signature="method#findBestPerformer#0;class#FitnessFuncion#0" />
+                <element signature="method#getAvarageDistanceForSet#0;class#FitnessFuncion#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BoardMenager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#generateRandomPoints#0;class#Destinations#0" />
+                <element signature="method#printGrid#0;class#Destinations#0" />
+                <element signature="method#PairPointDistance#0;class#Destinations#0" />
+                <element signature="method#getTotalDistance#0;class#Destinations#0" />
+                <element signature="method#getDistancesForGivenPathSet#0;class#Destinations#0" />
+                <element signature="method#getAllPossibleCombinations#0;class#Destinations#0" />
+                <element signature="e#3259#3260#0" expanded="true" />
+                <element signature="e#3311#3312#0" expanded="true" />
+                <element signature="method#swap#0;class#Destinations#0" />
+                <element signature="method#factorial#0;class#Destinations#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Board.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/BoardServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/BoardService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Destinations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/FitnessFuncion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/BoardMenager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="983" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeneticAlg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeneticAlg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552687146909" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.App" />
+      <module name="GeneticAlg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardMenager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.BoardMenager" />
+      <module name="GeneticAlg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FitnessFuncion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDA.FitnessFuncion" />
+      <module name="GeneticAlg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardServiceTest.getAllDistancesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeneticAlg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BoardServiceTest" />
+      <option name="METHOD_NAME" value="getAllDistancesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardServiceTest.getAllPossibleCombinationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeneticAlg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BoardServiceTest" />
+      <option name="METHOD_NAME" value="getAllPossibleCombinationsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.BoardServiceTest.getAllPossibleCombinationsTest" />
+      <item itemvalue="JUnit.BoardServiceTest.getAllDistancesTest" />
+      <item itemvalue="Application.FitnessFuncion" />
+      <item itemvalue="Application.BoardMenager" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.FitnessFuncion" />
+        <item itemvalue="Application.BoardMenager" />
+        <item itemvalue="JUnit.BoardServiceTest.getAllDistancesTest" />
+        <item itemvalue="JUnit.BoardServiceTest.getAllPossibleCombinationsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df65de4e-86db-4804-a82c-4de8f3d6cac0" name="Default Changelist" comment="" />
+      <created>1552574004516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552574004516</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BoardServiceTest_swapTest - 2019.03.14 at 21h 27m 16s.xml">
+      <configuration name="BoardServiceTest.swapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_swapTest - 2019.03.14 at 21h 27m 23s.xml">
+      <configuration name="BoardServiceTest.swapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_swapTest - 2019.03.14 at 21h 28m 59s.xml">
+      <configuration name="BoardServiceTest.swapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_swapTest - 2019.03.14 at 21h 29m 05s.xml">
+      <configuration name="BoardServiceTest.swapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_getAllPossibleCombinationsTest - 2019.03.15 at 10h 42m 10s.xml">
+      <configuration name="BoardServiceTest.getAllPossibleCombinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_getAllPossibleCombinationsTest - 2019.03.15 at 10h 51m 19s.xml">
+      <configuration name="BoardServiceTest.getAllPossibleCombinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_getAllDistancesTest - 2019.03.15 at 11h 12m 09s.xml">
+      <configuration name="BoardServiceTest.getAllDistancesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_getAllDistancesTest - 2019.03.15 at 11h 12m 39s.xml">
+      <configuration name="BoardServiceTest.getAllDistancesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_getAllDistancesTest - 2019.03.15 at 11h 13m 20s.xml">
+      <configuration name="BoardServiceTest.getAllDistancesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardServiceTest_getAllDistancesTest - 2019.03.15 at 11h 14m 26s.xml">
+      <configuration name="BoardServiceTest.getAllDistancesTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1433902" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/Parameterized.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="209" column="22" selection-start-line="209" selection-start-column="22" selection-end-line="209" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="591" column="11" selection-start-line="591" selection-start-column="11" selection-end-line="591" selection-end-column="11" />
+          <folding>
+            <element signature="e#23334#23335#0" expanded="true" />
+            <element signature="e#23368#23369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="631" column="35" selection-start-line="631" selection-start-column="32" selection-end-line="631" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.12.1/assertj-core-3.12.1.jar!/org/assertj/core/api/AbstractDoubleAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="459" column="25" selection-start-line="459" selection-start-column="25" selection-end-line="459" selection-end-column="25" />
+          <folding>
+            <element signature="e#18056#18057#0" expanded="true" />
+            <element signature="e#18138#18139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/BoardServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="81" column="51" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getPairPointDistance#0;class#BoardServiceTest#0" />
+            <element signature="method#getPointTest#0;class#BoardServiceTest#0" />
+            <element signature="method#getRelativeDistanceTest#0;class#BoardServiceTest#0" />
+            <element signature="method#factorialTest#0;class#BoardServiceTest#0" />
+            <element signature="method#swapTest#0;class#BoardServiceTest#0" />
+            <element signature="method#getAllPossibleCombinationsTest#0;class#BoardServiceTest#0" />
+            <element signature="method#generatePointPair#0;class#BoardServiceTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BoardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDistancesForGivenPathSet#0;class#BoardService#0" />
+            <element signature="method#getAllDistances#0;class#BoardService#0" />
+            <element signature="method#getAllPossibleCombinations#0;class#BoardService#0" />
+            <element signature="method#getTotalDistance#0;class#BoardService#0" />
+            <element signature="method#getRelativeDistances#0;class#BoardService#0" />
+            <element signature="method#PairPointDistance#0;class#BoardService#0" />
+            <element signature="method#getPoint#0;class#BoardService#0" />
+            <element signature="method#swap#0;class#BoardService#0" />
+            <element signature="method#factorial#0;class#BoardService#0" />
+            <element signature="method#printDistanceGrid#0;class#BoardService#0" />
+            <element signature="method#printTerritoryGrid#0;class#BoardService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="method#Board#0;class#Board#0" />
+            <element signature="method#initGridValues#0;class#Board#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/FitnessFuncion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="10" />
+          <folding>
+            <element signature="method#processSurvivors#0;class#FitnessFuncion#0" />
+            <element signature="method#breedCompetitors#0;class#FitnessFuncion#0" />
+            <element signature="method#mutateBaby#0;class#FitnessFuncion#0" />
+            <element signature="method#getSurvivors#0;class#FitnessFuncion#0" />
+            <element signature="method#generateOneCompetitor#0;class#FitnessFuncion#0" />
+            <element signature="method#generateCompetitors#0;class#FitnessFuncion#0" />
+            <element signature="method#findBestPerformer#0;class#FitnessFuncion#0" />
+            <element signature="method#getAvarageDistanceForSet#0;class#FitnessFuncion#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BoardMenager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="109" column="71" selection-start-line="109" selection-start-column="71" selection-end-line="109" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateRandomPoints#0;class#Destinations#0" />
+            <element signature="method#printGrid#0;class#Destinations#0" />
+            <element signature="method#PairPointDistance#0;class#Destinations#0" />
+            <element signature="method#getTotalDistance#0;class#Destinations#0" />
+            <element signature="method#getDistancesForGivenPathSet#0;class#Destinations#0" />
+            <element signature="method#getAllPossibleCombinations#0;class#Destinations#0" />
+            <element signature="e#3259#3260#0" expanded="true" />
+            <element signature="e#3311#3312#0" expanded="true" />
+            <element signature="method#swap#0;class#Destinations#0" />
+            <element signature="method#factorial#0;class#Destinations#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
