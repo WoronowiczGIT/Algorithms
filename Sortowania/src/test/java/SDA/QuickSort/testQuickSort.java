@@ -1,6 +1,5 @@
-package SDA;
+package SDA.QuickSort;
 
-import SDA.QuickSort.QuickSort;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Assert;
@@ -12,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(JUnitParamsRunner.class)
-public class QuickSortTest {
+public class testQuickSort {
     QuickSort quickSort;
 
     @Before
@@ -42,33 +41,19 @@ public class QuickSortTest {
             assertThat(input[i]).isGreaterThanOrEqualTo(input[border]);
         }
     }
-    @Test
-    @Parameters(method = "getParameters")
-    public void dividerTest(int[] input){
-        int pivotValue = input[quickSort.getPivotIndex(0,input.length-1)];
-        int border = quickSort.divider(input,0,input.length-1);
-        if(input.length>2) {
-            for (int i = 0; i < border; i++) {
-                assertThat(input[i]).isLessThanOrEqualTo(input[border]);
-            }
-            for (int i = input.length - 1; i > border; i--) {
-                assertThat(input[i]).isGreaterThanOrEqualTo(input[border]);
-            }
-            assertThat(input[border]).isEqualTo(pivotValue);
-        }
-    }
+
 
     @Test
     @Parameters(method = "getParameters")
     public void quickSortT2Test(int[] input) {
-        quickSort.quickSortT2(input);
+        quickSort.quickSort(input);
         assertThat(input).isSorted();
     }
 
     @Test
     @Parameters(method = "getParameters")
     public void quickSortTTest(int[] input) {
-        quickSort.quickSortT(input);
+        quickSort.quickSort(input);
         assertThat(input).isSorted();
     }
 

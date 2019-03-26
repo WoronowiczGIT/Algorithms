@@ -1,6 +1,6 @@
 package SDA.BubbleSort;
 
-public class BubbleSort implements Cloneable{
+public class BubbleSort2 implements Cloneable{
 
 
     public Integer[] bubbleSortT(Integer[] input) {

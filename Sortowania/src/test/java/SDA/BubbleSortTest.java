@@ -1,7 +1,6 @@
-package SDA;
+package SDA.BubbleSort;
 
 
-import SDA.BubbleSort.BubbleSort;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Assert;
@@ -14,11 +13,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(JUnitParamsRunner.class)
 public class BubbleSortTest {
 
-    BubbleSort bubbleSort;
+    BubbleSort2 bubbleSort;
 
     @Before
     public void setUp(){
-        this.bubbleSort = new BubbleSort();
+        this.bubbleSort = new BubbleSort2();
     }
 
     @Test

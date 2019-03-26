@@ -14,15 +14,15 @@ public class QuickSort {
         return high / 2;
     }
 
-    public void quickSortT(int[] input) {
-        quickSortT(input, 0, input.length - 1);
+    public void quickSort(int[] input) {
+        quickSort(input, 0, input.length - 1);
     }
 
-    private void quickSortT(int[] input, int low, int high) {
+    private void quickSort(int[] input, int low, int high) {
         if (low < high + 1) {
             int divider = sort(input, low, high);
-            quickSortT(input, low, divider - 1);
-            quickSortT(input, divider + 1, high);
+            quickSort(input, low, divider - 1);
+            quickSort(input, divider + 1, high);
         }
     }
 

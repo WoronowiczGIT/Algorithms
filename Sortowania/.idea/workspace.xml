@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ce7a91-2789-4e3a-bf94-861d88f037a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Utilities/UtilitiesMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/MergeSort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/MergeSort/testMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuicksort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sortowania.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Sorting/CountingSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/CountingSort/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Sorting/PickingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Sorting/Sortowanie1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/Utilities/UtilitiesMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/Utilities/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SDA/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDA/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SDA/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDA/SelectionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,30 +81,32 @@
     <session id="1029017056">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="14" />
-          <entry key="java" value="29" />
+          <entry key="dummy" value="28" />
+          <entry key="java" value="705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="705" />
+          <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -119,124 +114,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/MergeSort/testMergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="46" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="method#swap#0;class#QuickSort#0" />
-                <element signature="method#getPivotIndex#0;class#QuickSort#0" />
-                <element signature="method#quickSortT#1;class#QuickSort#0" />
-                <element signature="method#sort#0;class#QuickSort#0" />
-                <element signature="e#1131#1187#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Utilities/UtilitiesMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/CountingSort/CountingSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/MergeSort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
-                <element signature="method#swap#0;class#QuickSort2#0" />
-                <element signature="method#getPivotIndex#0;class#QuickSort2#0" />
-                <element signature="method#quickSortT2#1;class#QuickSort2#0" />
-                <element signature="e#499#542#0" />
-                <element signature="method#divider#0;class#QuickSort2#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#480#485#0" />
-                <element signature="method#swapTest#0;class#QuickSortTest#0" />
-                <element signature="e#838#843#0" />
-                <element signature="method#sortTest#0;class#QuickSortTest#0" />
-                <element signature="e#1263#1268#0" />
-                <element signature="method#dividerTest#0;class#QuickSortTest#0" />
-                <element signature="method#quickSortT2Test#0;class#QuickSortTest#0" />
-                <element signature="method#quickSortTTest#0;class#QuickSortTest#0" />
-                <element signature="method#getParameters#0;class#QuickSortTest#0" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -259,19 +157,26 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SDA/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SDA/SelectionSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort2.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Sorting/Sortowanie1.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/Utilities/UtilitiesMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/SelectionSort3.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/BubbleSort2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/Utilities/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/MergeSort/testMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/BubbleSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuickSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuicksort2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/MergeSort/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -295,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -330,19 +234,87 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="BubbleSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="MergeSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="QuickSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="MergeSort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sortowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SDA" type="462c0819:PsiDirectoryNode" />
+              <item name="QuickSort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553606172011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553608502315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="SDA.QuickSort" />
       <recent name="SDA" />
     </key>
   </component>
@@ -358,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortTest.quickSortT2Test">
+  <component name="RunManager" selected="JUnit.testMergeSort.testMerge">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sortowania" />
       <extension name="coverage">
@@ -369,20 +341,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="SDA" />
       <option name="MAIN_CLASS_NAME" value="SDA.AppTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sortowania" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.QuickSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SDA" />
-      <option name="MAIN_CLASS_NAME" value="SDA.BubbleSortTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -433,20 +391,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testMergeSort.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sortowania" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.MergeSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.MergeSort" />
+      <option name="MAIN_CLASS_NAME" value="SDA.MergeSort.testMergeSort" />
+      <option name="METHOD_NAME" value="testMerge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.QuickSortTest.quickSortT2Test" />
       <item itemvalue="JUnit.QuickSortTest" />
-      <item itemvalue="JUnit.BubbleSortTest" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.QuickSortTest.dividerTest" />
+      <item itemvalue="JUnit.testMergeSort.testMerge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testMergeSort.testMerge" />
         <item itemvalue="JUnit.QuickSortTest.quickSortT2Test" />
         <item itemvalue="JUnit.QuickSortTest.dividerTest" />
         <item itemvalue="JUnit.QuickSortTest" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.BubbleSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -464,9 +438,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BubbleSortTest - 2019.03.13 at 19h 42m 34s.xml">
-      <configuration name="BubbleSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.03.13 at 19h 42m 56s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -494,11 +465,15 @@
     <history-entry file="QuickSortTest_quickSortT2Test - 2019.03.14 at 15h 13m 21s.xml">
       <configuration name="QuickSortTest.quickSortT2Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testMergeSort_testMerge - 2019.03.26 at 14h 55m 10s.xml">
+      <configuration name="testMergeSort.testMerge" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -508,7 +483,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/BubbleSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SDA/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -614,72 +582,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Sorting/Sortowanie1.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#485#0" />
-            <element signature="method#swapTest#0;class#QuickSortTest#0" />
-            <element signature="e#838#843#0" />
-            <element signature="method#sortTest#0;class#QuickSortTest#0" />
-            <element signature="e#1263#1268#0" />
-            <element signature="method#dividerTest#0;class#QuickSortTest#0" />
-            <element signature="method#quickSortT2Test#0;class#QuickSortTest#0" />
-            <element signature="method#quickSortTTest#0;class#QuickSortTest#0" />
-            <element signature="method#getParameters#0;class#QuickSortTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Utilities/UtilitiesMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Sorting/Sortowanie1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -697,30 +604,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/SelectionSort/SelectionSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSortInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="14" selection-end-column="5" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSortString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Utilities/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BubbleSort/BubbleSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/BubbleSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="method#swap#0;class#QuickSort#0" />
             <element signature="method#getPivotIndex#0;class#QuickSort#0" />
             <element signature="method#quickSortT#1;class#QuickSort#0" />
             <element signature="method#sort#0;class#QuickSort#0" />
-            <element signature="e#1131#1187#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="method#swap#0;class#QuickSort2#0" />
             <element signature="method#getPivotIndex#0;class#QuickSort2#0" />
-            <element signature="method#quickSortT2#1;class#QuickSort2#0" />
-            <element signature="e#499#542#0" />
             <element signature="method#divider#0;class#QuickSort2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#swapTest#0;class#QuickSortTest#0" />
+            <element signature="method#quickSortTTest#0;class#QuickSortTest#0" />
+            <element signature="method#getParameters#0;class#QuickSortTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuicksort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getParameters#0;class#testQuicksort2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/MergeSort/testMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/MergeSort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
