@@ -1,8 +1,8 @@
-package com.company.Sorting;
+package SDA.SelectionSort;
 
 import java.util.List;
 
-public class PickingSort {
+public class SelectionSort3 {
 
     public static Integer[] sortByPicking2(List<Integer> list) {
         Integer[] values = new Integer[list.size()];

@@ -1,4 +1,4 @@
-package com.company.Sorting;
+package SDA.CountingSort;
 
 import java.util.Collections;
 import java.util.HashMap;

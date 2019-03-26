@@ -1,5 +1,6 @@
 package SDA;
 
+import SDA.QuickSort.QuickSort;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Assert;
@@ -8,7 +9,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.in;
 
 
 @RunWith(JUnitParamsRunner.class)

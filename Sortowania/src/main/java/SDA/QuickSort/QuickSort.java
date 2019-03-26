@@ -1,0 +1,55 @@
+package SDA.QuickSort;
+
+public class QuickSort {
+
+    public void swap(int[] array, int index1, int index2) {
+        int buffer = array[index1];
+        array[index1] = array[index2];
+        array[index2] = buffer;
+    }
+
+    public int getPivotIndex(int low, int high) {
+        if (high / 2 < low)
+            return low;
+        return high / 2;
+    }
+
+    public void quickSortT(int[] input) {
+        quickSortT(input, 0, input.length - 1);
+    }
+
+    private void quickSortT(int[] input, int low, int high) {
+        if (low < high + 1) {
+            int divider = sort(input, low, high);
+            quickSortT(input, low, divider - 1);
+            quickSortT(input, divider + 1, high);
+        }
+    }
+
+    public int sort(int[] input, int low, int high) {
+        int divider = low;
+        int pivotIndex = getPivotIndex(low, high);
+        int pivot = input[pivotIndex];
+        swap(input, pivotIndex, high);
+
+        for (int i = low; i < high; i++) {
+            if (input[i] < pivot) {
+                swap(input, i, divider++);
+            }
+        }
+        swap(input, divider, high);
+
+        return divider;
+    }
+    //Note: make sure pivot index is always in correct range
+    //Note2: if(low<high+1) condition in recursive quickSort method
+    //makes sure we can process in a narrow scope
+    // (eg. low=0, high =0, would be skipped otherwise)
+
+
+
+
+
+
+
+}
