@@ -19,11 +19,11 @@ public class QuickSort {
     }
 
     private void quickSort(int[] input, int low, int high) {
-        if (low < high + 1) {
+        if (low < high) {
             int divider = sort(input, low, high);
             quickSort(input, low, divider - 1);
             quickSort(input, divider + 1, high);
-        }
+        }else return;
     }
 
     public int sort(int[] input, int low, int high) {
@@ -42,9 +42,7 @@ public class QuickSort {
         return divider;
     }
     //Note: make sure pivot index is always in correct range
-    //Note2: if(low<high+1) condition in recursive quickSort method
-    //makes sure we can process in a narrow scope
-    // (eg. low=0, high =0, would be skipped otherwise)
+
 
 
 

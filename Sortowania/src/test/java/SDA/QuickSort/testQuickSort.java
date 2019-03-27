@@ -45,13 +45,6 @@ public class testQuickSort {
 
     @Test
     @Parameters(method = "getParameters")
-    public void quickSortT2Test(int[] input) {
-        quickSort.quickSort(input);
-        assertThat(input).isSorted();
-    }
-
-    @Test
-    @Parameters(method = "getParameters")
     public void quickSortTTest(int[] input) {
         quickSort.quickSort(input);
         assertThat(input).isSorted();

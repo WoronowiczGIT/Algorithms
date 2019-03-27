@@ -1,11 +1,14 @@
 package SDA.QuickSort;
 
+import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@RunWith(JUnitParamsRunner.class)
 public class testQuicksort2 {
     QuickSort2 quickSort;
 
@@ -14,6 +17,12 @@ public class testQuicksort2 {
         this.quickSort = new QuickSort2();
     }
 
+    @Test
+    @Parameters(method = "getParameters")
+    public void quickSortTest(int[] input) {
+        quickSort.quickSort(input);
+        assertThat(input).isSorted();
+    }
 
     @Test
     @Parameters(method = "getParameters")
