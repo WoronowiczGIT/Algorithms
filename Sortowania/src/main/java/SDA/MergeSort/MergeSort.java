@@ -11,7 +11,7 @@ public class MergeSort {
         int pivot = array.length / 2;
         Integer[] left = new Integer[pivot];
         Integer[] right = new Integer[array.length - pivot];
-        // divide input array into 2 array
+        // sort input array into 2 array
         for (int i = 0; i < array.length; i++) {
             if (i < pivot) {
                 left[i] = array[i];
