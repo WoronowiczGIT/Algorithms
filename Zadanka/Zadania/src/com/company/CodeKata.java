@@ -23,20 +23,21 @@ public class CodeKata {
                 mostOccurences=number;
             }
         }
-
+        // display * in case given occurence > 0
         for (int i = mostOccurences; i > 0 ; i--) {
 
             for (int j = 0; j < result.length; j++) {
-                if(result[j] >= i && result[j] != 0){
-                    System.out.print("* ");
+                if(result[j]==0) continue;
 
-                }else if(result[j] != 0 ){
+                if(result[j] >= i){
+                    System.out.print("* ");
+                }else{
                     System.out.print("  ");
                 }
             }
             System.out.println();
         }
-
+        // display numbers
         for (int i = 0; i < result.length; i++) {
             if(result[i] != 0 ){
                 System.out.print(i+" ");
