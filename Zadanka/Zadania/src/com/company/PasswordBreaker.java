@@ -1,25 +1,26 @@
 package com.company;
 
+import java.time.Duration;
+import java.time.Instant;
 import java.util.Arrays;
 
 public class PasswordBreaker {
     private char[] password;
     private char[] attempt;
+    private Instant now = Instant.now();
 
-    public void tryPassword(char[] attempt){
-        if(Arrays.equals(attempt,password)){
-            System.out.println("solved! password: ");
-            System.out.println(Arrays.toString(attempt));
-            System.exit(0);
-        }
+    public boolean tryPassword(char[] attempt){
+        return Arrays.equals(attempt,password);
+    }
+    public void displayResult(){
+        System.out.println("solved! password: ");
+        System.out.println(Arrays.toString(attempt));
+        System.out.println(Duration.between(now,Instant.now()).getNano());
+        System.exit(0);
     }
 
     public void setPassword(char[] pass){
         password = pass;
-    }
-
-    public String charArrayConverter(char[] array){
-        return String.copyValueOf(array);
     }
 
     /** ASCII
@@ -34,11 +35,11 @@ public class PasswordBreaker {
     }
 
     public void cracker(int length){
-
         attempt = new char[length];
         for (int charAt = 0; charAt < length; charAt++) {
             checkIndex(charAt);
         }
+
         cracker(length+1);
     }
 
@@ -46,7 +47,10 @@ public class PasswordBreaker {
 
         for (int i = 33; i < 127; i++) {
             attempt[charAt] = (char)i;
-            tryPassword(attempt);
+
+            if(tryPassword(attempt)){
+                displayResult();}
+
             if(attempt.length > charAt+1){
                 checkIndex(charAt+1);
             }
@@ -56,7 +60,10 @@ public class PasswordBreaker {
     public static void main(String[] args) {
         PasswordBreaker pb = new PasswordBreaker();
 
-        pb.setPassword(new char[]{'G','G','3','3','5'});
+        pb.setPassword(new char[]{'G','a'});
         pb.cracker();
+
+
+
     }
 }
