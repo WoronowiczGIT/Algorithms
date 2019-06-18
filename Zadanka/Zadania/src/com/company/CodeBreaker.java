@@ -3,9 +3,10 @@ package com.company;
 import java.util.Arrays;
 
 public class CodeBreaker {
+    // Simulates breaking in to a cylinder bikeLock by rolling all the dials
+
     private static int[] code;
     private static int[] attempt;
-
 
     public void setCode(int[] code) {
         this.code = code;

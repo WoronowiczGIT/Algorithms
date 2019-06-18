@@ -1,0 +1,62 @@
+package com.company;
+
+import java.util.Arrays;
+
+public class PasswordBreaker {
+    private char[] password;
+    private char[] attempt;
+
+    public void tryPassword(char[] attempt){
+        if(Arrays.equals(attempt,password)){
+            System.out.println("solved! password: ");
+            System.out.println(Arrays.toString(attempt));
+            System.exit(0);
+        }
+    }
+
+    public void setPassword(char[] pass){
+        password = pass;
+    }
+
+    public String charArrayConverter(char[] array){
+        return String.copyValueOf(array);
+    }
+
+    /** ASCII
+     *  48 - 57, 0 - 9
+     *  65 - 90, A - Z
+     *  97 - 122, a - z
+     *  33 - 126, specials
+     */
+
+    public void cracker(){
+        cracker(1);
+    }
+
+    public void cracker(int length){
+
+        attempt = new char[length];
+        for (int charAt = 0; charAt < length; charAt++) {
+            checkIndex(charAt);
+        }
+        cracker(length+1);
+    }
+
+    public void checkIndex(int charAt){
+
+        for (int i = 33; i < 127; i++) {
+            attempt[charAt] = (char)i;
+            tryPassword(attempt);
+            if(attempt.length > charAt+1){
+                checkIndex(charAt+1);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        PasswordBreaker pb = new PasswordBreaker();
+
+        pb.setPassword(new char[]{'G','G','3','3','5'});
+        pb.cracker();
+    }
+}
