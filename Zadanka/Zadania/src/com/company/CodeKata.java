@@ -78,8 +78,13 @@ public class CodeKata {
             System.out.print(number+" ");
         }
     }
+    //Ex 3. code breaker emulate brute force breaking a codelock
+
+
+
 
     public static void main(String[] args) {
+        System.out.println((new Integer[]{1,2,3}).equals(new Integer[]{1,2,3}) );
         int[] array = generateRandomArray(50);
         int[] result = valueRemover(array,5);
         presentArray(result);
