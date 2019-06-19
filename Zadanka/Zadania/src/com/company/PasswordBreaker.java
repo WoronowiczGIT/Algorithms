@@ -15,7 +15,7 @@ public class PasswordBreaker {
     public void displayResult(){
         System.out.println("solved! password: ");
         System.out.println(Arrays.toString(attempt));
-        System.out.println(Duration.between(now,Instant.now()).getNano());
+        System.out.println("took: "+Duration.between(now,Instant.now()).getSeconds()+" seconds to solve.");
         System.exit(0);
     }
 
@@ -36,10 +36,7 @@ public class PasswordBreaker {
 
     public void cracker(int length){
         attempt = new char[length];
-        for (int charAt = 0; charAt < length; charAt++) {
-            checkIndex(charAt);
-        }
-
+        checkIndex(0);
         cracker(length+1);
     }
 
@@ -60,10 +57,7 @@ public class PasswordBreaker {
     public static void main(String[] args) {
         PasswordBreaker pb = new PasswordBreaker();
 
-        pb.setPassword(new char[]{'G','a'});
+        pb.setPassword(new char[]{'G','a','G','A','5','s'});
         pb.cracker();
-
-
-
     }
 }
