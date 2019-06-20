@@ -1,37 +1,37 @@
-package com.company;
+package SDA.BinarySearch;
 
 public class BinarySearch {
-    private int[] array;
+    private Integer[] array;
 
-    public void generateSortedArray(int length, int interval){
-        array = new int[length];
+    public Integer[] getArray(){
+        return array;
+    }
+
+    public void generateSortedArray(int length){
+        array = new Integer[length];
         for (int i = 0; i < length; i++) {
-            array[i] = i*interval;
+            array[i] = i;
         }
     }
 
-    public void binarySearch(int value){
-        binary(value,0,array.length-1);
+    public int binarySearch(int value){
+        return binary(value,0,array.length-1);
     }
 
     public int binary(int value, int start, int finish){
-        if(start >= finish){
-            System.out.println("found "+value+" at: "+finish);
-            return start;
-        }
+        if(start > finish)return  -1;
         int pivot = finish - ((finish - start)/2);
 
         if(value > array[pivot]){
-            binary(value,pivot+1,finish);
+           return binary(value,pivot+1,finish);
         }else if(value < array[pivot]){
-            binary(value,start,pivot-1);
+           return binary(value,start,pivot-1);
+        }else if(value == array[pivot]){
+            return pivot;
         }
-
-        return -1;
+        return -9999;
     }
-
-
-    public void linearSearch(int value){
+    public int linearSearch(int value){
 
         int index = -1;
         for (int i = 0; i < array.length; i++) {
@@ -40,10 +40,6 @@ public class BinarySearch {
                 break;
             }
         }
-
-
+        return index;
     }
-
-
-
 }

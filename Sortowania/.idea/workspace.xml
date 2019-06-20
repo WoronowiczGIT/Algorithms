@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ce7a91-2789-4e3a-bf94-861d88f037a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/QuickSort/QuickSort3Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/BinarySearch/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/MergeSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/MergeSort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SDA/BinarySearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SDA/BinarySearch/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zadanka/Zadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zadanka/Zadania/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,34 +77,35 @@
     <session id="1029017056">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="java" value="28" />
+          <entry key="class" value="7" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="28" />
+          <entry key="CLASS" value="7" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="3830" />
+          <entry key="java" value="4913" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3830" />
+          <entry key="JAVA" value="4913" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -113,10 +113,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSort/QuickSort3Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="969">
               <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
               <folding>
                 <element signature="e#255#256#0" expanded="true" />
@@ -129,8 +129,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BinarySearch/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SDA/BinarySearch/BinarySearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,8 +201,10 @@
         <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSort/testQuicksort2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort3.java" />
         <option value="$PROJECT_DIR$/src/test/java/SDA/QuickSort/QuickSort3Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SDA/BinarySearch/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SDA/BinarySearch/BinarySearchTest.java" />
       </list>
     </option>
   </component>
@@ -198,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +269,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="SDA" type="462c0819:PsiDirectoryNode" />
-              <item name="QuickSort" type="462c0819:PsiDirectoryNode" />
+              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sortowania" type="b2602c69:ProjectViewProjectNode" />
@@ -274,12 +305,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559285966414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561032059587" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -287,6 +317,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="SDA.BinarySearch" />
       <recent name="SDA.QuickSort" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -309,99 +340,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSort3Test.sort">
-    <configuration name="QuickSort3Test.chosePivot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sortowania" />
+  <component name="RunManager" selected="JUnit.BinarySearchTest.performanceTestWorstCase">
+    <configuration name="BinarySearchTest.argumentNotIncluded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting and Searching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.QuickSort.*" />
+          <option name="PATTERN" value="SDA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SDA.QuickSort" />
-      <option name="MAIN_CLASS_NAME" value="SDA.QuickSort.QuickSort3Test" />
-      <option name="METHOD_NAME" value="chosePivot" />
+      <option name="PACKAGE_NAME" value="SDA.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BinarySearch.BinarySearchTest" />
+      <option name="METHOD_NAME" value="argumentNotIncluded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort3Test.divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sortowania" />
+    <configuration name="BinarySearchTest.binarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting and Searching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.QuickSort.*" />
+          <option name="PATTERN" value="SDA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SDA.QuickSort" />
-      <option name="MAIN_CLASS_NAME" value="SDA.QuickSort.QuickSort3Test" />
-      <option name="METHOD_NAME" value="divide" />
+      <option name="PACKAGE_NAME" value="SDA.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BinarySearch.BinarySearchTest" />
+      <option name="METHOD_NAME" value="binarySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort3Test.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sortowania" />
+    <configuration name="BinarySearchTest.performanceTestBestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting and Searching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.QuickSort.*" />
+          <option name="PATTERN" value="SDA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SDA.QuickSort" />
-      <option name="MAIN_CLASS_NAME" value="SDA.QuickSort.QuickSort3Test" />
-      <option name="METHOD_NAME" value="sort" />
+      <option name="PACKAGE_NAME" value="SDA.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BinarySearch.BinarySearchTest" />
+      <option name="METHOD_NAME" value="performanceTestBestCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort3Test.swap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sortowania" />
+    <configuration name="BinarySearchTest.performanceTestRegularCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting and Searching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.QuickSort.*" />
+          <option name="PATTERN" value="SDA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SDA.QuickSort" />
-      <option name="MAIN_CLASS_NAME" value="SDA.QuickSort.QuickSort3Test" />
-      <option name="METHOD_NAME" value="swap" />
+      <option name="PACKAGE_NAME" value="SDA.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BinarySearch.BinarySearchTest" />
+      <option name="METHOD_NAME" value="performanceTestRegularCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testQuicksort2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sortowania" />
+    <configuration name="BinarySearchTest.performanceTestWorstCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting and Searching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SDA.QuickSort.*" />
+          <option name="PATTERN" value="SDA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SDA.QuickSort" />
-      <option name="MAIN_CLASS_NAME" value="SDA.QuickSort.testQuicksort2" />
+      <option name="PACKAGE_NAME" value="SDA.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="SDA.BinarySearch.BinarySearchTest" />
+      <option name="METHOD_NAME" value="performanceTestWorstCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.testQuicksort2" />
-      <item itemvalue="JUnit.QuickSort3Test.chosePivot" />
-      <item itemvalue="JUnit.QuickSort3Test.swap" />
-      <item itemvalue="JUnit.QuickSort3Test.divide" />
-      <item itemvalue="JUnit.QuickSort3Test.sort" />
+      <item itemvalue="JUnit.BinarySearchTest.binarySearch" />
+      <item itemvalue="JUnit.BinarySearchTest.argumentNotIncluded" />
+      <item itemvalue="JUnit.BinarySearchTest.performanceTestBestCase" />
+      <item itemvalue="JUnit.BinarySearchTest.performanceTestRegularCase" />
+      <item itemvalue="JUnit.BinarySearchTest.performanceTestWorstCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuickSort3Test.sort" />
-        <item itemvalue="JUnit.QuickSort3Test.chosePivot" />
-        <item itemvalue="JUnit.QuickSort3Test.divide" />
-        <item itemvalue="JUnit.QuickSort3Test.swap" />
-        <item itemvalue="JUnit.testQuicksort2" />
+        <item itemvalue="JUnit.BinarySearchTest.performanceTestWorstCase" />
+        <item itemvalue="JUnit.BinarySearchTest.performanceTestRegularCase" />
+        <item itemvalue="JUnit.BinarySearchTest.performanceTestBestCase" />
+        <item itemvalue="JUnit.BinarySearchTest.argumentNotIncluded" />
+        <item itemvalue="JUnit.BinarySearchTest.binarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -419,42 +452,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickSort3Test_divide - 2019.05.31 at 08h 51m 27s.xml">
-      <configuration name="QuickSort3Test.divide" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 54m 24s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 55m 45s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 55m 31s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_divide - 2019.05.31 at 08h 56m 24s.xml">
-      <configuration name="QuickSort3Test.divide" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 55m 49s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_chosePivot - 2019.05.31 at 08h 56m 30s.xml">
-      <configuration name="QuickSort3Test.chosePivot" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 57m 16s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 57m 34s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 57m 30s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 57m 45s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 57m 43s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 58m 44s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 58m 08s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 58m 48s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 58m 58s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 59m 05s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestBestCase - 2019.06.20 at 13h 59m 16s.xml">
+      <configuration name="BinarySearchTest.performanceTestBestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSort3Test_sort - 2019.05.31 at 08h 59m 27s.xml">
-      <configuration name="QuickSort3Test.sort" configurationId="JUnit" />
+    <history-entry file="BinarySearchTest_performanceTestRegularCase - 2019.06.20 at 14h 00m 54s.xml">
+      <configuration name="BinarySearchTest.performanceTestRegularCase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -462,8 +495,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33147943" />
@@ -472,9 +503,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -641,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,9 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,6 +754,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSort/QuickSort3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -734,20 +779,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/QuickSort/QuickSort3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/BinarySearch/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="459">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/QuickSort/QuickSort3Test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SDA/BinarySearch/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        <state relative-caret-position="281">
+          <caret line="89" column="32" lean-forward="true" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
           </folding>
         </state>
       </provider>
