@@ -1,4 +1,4 @@
-package SDA.MergeSort;
+package SDA.Sorting.MergeSort;
 
 public class MergeSort {
 

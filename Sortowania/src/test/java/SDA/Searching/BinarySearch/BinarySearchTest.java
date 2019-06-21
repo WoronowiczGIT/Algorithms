@@ -1,4 +1,4 @@
-package SDA.BinarySearch;
+package SDA.Searching.BinarySearch;
 
 import org.junit.Assert;
 import org.junit.Before;

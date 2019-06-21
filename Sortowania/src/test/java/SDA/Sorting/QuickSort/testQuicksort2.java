@@ -1,4 +1,4 @@
-package SDA.QuickSort;
+package SDA.Sorting.QuickSort;
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;

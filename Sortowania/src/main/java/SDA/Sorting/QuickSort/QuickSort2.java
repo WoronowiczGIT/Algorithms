@@ -1,4 +1,4 @@
-package SDA.QuickSort;
+package SDA.Sorting.QuickSort;
 
 public class QuickSort2 {
     public void swap(int[] array, int index1, int index2) {

@@ -1,6 +1,6 @@
 package SDA;
 
-import SDA.SelectionSort.SelectionSort;
+import SDA.Sorting.SelectionSort.SelectionSort;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Before;

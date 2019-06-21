@@ -1,12 +1,10 @@
-package SDA.QuickSort;
+package SDA.Sorting.QuickSort;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.stream.IntStream;
-
-import static org.junit.Assert.*;
 
 public class QuickSort3Test {
     QuickSort3 q3;

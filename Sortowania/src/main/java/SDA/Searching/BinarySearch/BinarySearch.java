@@ -1,4 +1,4 @@
-package SDA.BinarySearch;
+package SDA.Searching.BinarySearch;
 
 public class BinarySearch {
     private Integer[] array;

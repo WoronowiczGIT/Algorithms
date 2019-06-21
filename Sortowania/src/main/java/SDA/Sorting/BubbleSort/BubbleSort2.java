@@ -1,4 +1,4 @@
-package SDA.BubbleSort;
+package SDA.Sorting.BubbleSort;
 
 public class BubbleSort2 implements Cloneable{
 

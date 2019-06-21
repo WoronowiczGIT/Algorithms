@@ -1,4 +1,4 @@
-package SDA.QuickSort;
+package SDA.Sorting.QuickSort;
 
 public class QuickSort {
 

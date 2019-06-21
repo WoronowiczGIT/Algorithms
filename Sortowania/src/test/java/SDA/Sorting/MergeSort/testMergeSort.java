@@ -1,4 +1,4 @@
-package SDA.MergeSort;
+package SDA.Sorting.MergeSort;
 
 import org.junit.Assert;
 import org.junit.Before;

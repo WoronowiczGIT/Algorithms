@@ -1,4 +1,4 @@
-package SDA.BubbleSort;
+package SDA.Sorting.BubbleSort;
 
 
 import junitparams.JUnitParamsRunner;

@@ -1,4 +1,4 @@
-package SDA.SelectionSort;
+package SDA.Sorting.SelectionSort;
 
 import java.util.LinkedList;
 import java.util.List;

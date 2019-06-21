@@ -1,4 +1,4 @@
-package SDA.SelectionSort;
+package SDA.Sorting.SelectionSort;
 
 public class SelectionSort implements Cloneable {
 
