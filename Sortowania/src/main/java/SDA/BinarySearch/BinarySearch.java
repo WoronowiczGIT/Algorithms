@@ -15,21 +15,20 @@ public class BinarySearch {
     }
 
     public int binarySearch(int value){
-        return binary(value,0,array.length-1);
+        return search(value,0,array.length-1);
     }
 
-    public int binary(int value, int start, int finish){
+    public int search(int value, int start, int finish){
         if(start > finish)return  -1;
         int pivot = finish - ((finish - start)/2);
 
         if(value > array[pivot]){
-           return binary(value,pivot+1,finish);
+           return search(value,pivot+1,finish);
         }else if(value < array[pivot]){
-           return binary(value,start,pivot-1);
-        }else if(value == array[pivot]){
-            return pivot;
+           return search(value,start,pivot-1);
         }
-        return -9999;
+
+        return pivot;
     }
     public int linearSearch(int value){
 

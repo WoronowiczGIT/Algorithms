@@ -8,8 +8,6 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
-
 public class BinarySearchTest {
     private BinarySearch bs;
     @Before
@@ -69,39 +67,37 @@ public class BinarySearchTest {
 
         Duration binaryDuration = Duration.between(binaryStart,binaryFinish);
         Duration linearDuration = Duration.between(linearStart,linearFinish);
-        System.out.println(binaryDuration.getNano()+" "+linearDuration.getNano());
 
         Assert.assertTrue(linearDuration.getNano() < binaryDuration.getNano());
 
     }
     @Test
     public void performanceTestRegularCase(){
-        int bigValue = 1234567;
-        bs.generateSortedArray(1234567);
+        int bigValue = 123456;
+        bs.generateSortedArray(123456);
         int value = bigValue/2;
 
         Instant binaryStart = Instant.now();
-        for (int i = 0; i <12345; i++) {
+        for (int i = 0; i <1234; i++) {
             bs.binarySearch(value);
         }
         Instant binaryFinish = Instant.now();
 
         Instant linearStart = Instant.now();
-        for (int i = 0; i <12345; i++) {
+        for (int i = 0; i <1234; i++) {
             bs.linearSearch(value);
         }
         Instant linearFinish = Instant.now();
 
         Duration binaryDuration = Duration.between(binaryStart,binaryFinish);
         Duration linearDuration = Duration.between(linearStart,linearFinish);
-        System.out.println(binaryDuration.getNano()+" "+linearDuration.getNano());
 
         Assert.assertTrue(linearDuration.getNano() > binaryDuration.getNano());
     }
     @Test
     public void performanceTestWorstCase(){
-        int bigValue = 1234567;
-        bs.generateSortedArray(1234567);
+        int bigValue = 123456;
+        bs.generateSortedArray(123457);
         int value = bigValue;
 
         Instant binaryStart = Instant.now();
@@ -118,7 +114,6 @@ public class BinarySearchTest {
 
         Duration binaryDuration = Duration.between(binaryStart,binaryFinish);
         Duration linearDuration = Duration.between(linearStart,linearFinish);
-        System.out.println(binaryDuration.getNano()+" "+linearDuration.getNano());
 
         Assert.assertTrue(linearDuration.getNano() > binaryDuration.getNano());
     }
