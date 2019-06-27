@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ce7a91-2789-4e3a-bf94-861d88f037a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/OneWayTraversableList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/OneWayTraversableListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/OneWayTraversableListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/OneWayTraversableListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zadanka/Zadania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zadanka/Zadania/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -105,12 +100,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="8037" />
+          <entry key="java" value="8142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8037" />
+          <entry key="JAVA" value="8142" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -133,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/OneWayTraversableList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -142,17 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/OneWayTraversableListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/MyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="470">
+              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -383,7 +369,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561665347933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561665352646" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -418,26 +404,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OneWayTraversableListTest.isLooped">
+  <component name="RunManager" selected="JUnit.OneWayTraversableListTest.isNotLooped">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SDA.Graphs.DFS.Main" />
       <module name="Sorting and Searching" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SDA.Graphs.DFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SDA.Graphs.BFS.Main" />
-      <module name="Sorting and Searching" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SDA.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,20 +463,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OneWayTraversableListTest.isNotLooped" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting and Searching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SDA.Graphs.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SDA.Graphs.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="SDA.Graphs.linkedList.OneWayTraversableListTest" />
+      <option name="METHOD_NAME" value="isNotLooped" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="JUnit.MyListTest.addToList" />
       <item itemvalue="JUnit.OneWayTraversableListTest.isLooped" />
+      <item itemvalue="JUnit.OneWayTraversableListTest.isNotLooped" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OneWayTraversableListTest.isNotLooped" />
         <item itemvalue="JUnit.OneWayTraversableListTest.isLooped" />
         <item itemvalue="JUnit.MyListTest.addToList" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -521,21 +510,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest - 2019.06.21 at 11h 03m 01s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2019.06.21 at 11h 03m 43s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyListTest_addToList - 2019.06.27 at 21h 34m 04s.xml">
-      <configuration name="MyListTest.addToList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyListTest_addToList - 2019.06.27 at 21h 34m 35s.xml">
-      <configuration name="MyListTest.addToList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyListTest_addToList - 2019.06.27 at 21h 36m 55s.xml">
-      <configuration name="MyListTest.addToList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyListTest_addToList - 2019.06.27 at 21h 36m 59s.xml">
       <configuration name="MyListTest.addToList" configurationId="JUnit" />
     </history-entry>
@@ -551,12 +525,27 @@
     <history-entry file="MyListTest_addToList - 2019.06.27 at 21h 39m 12s.xml">
       <configuration name="MyListTest.addToList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OneWayTraversableListTest_isLooped - 2019.06.27 at 21h 54m 10s.xml">
+      <configuration name="OneWayTraversableListTest.isLooped" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OneWayTraversableListTest_isLooped - 2019.06.27 at 21h 54m 18s.xml">
+      <configuration name="OneWayTraversableListTest.isLooped" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OneWayTraversableListTest_isLooped - 2019.06.27 at 21h 55m 06s.xml">
+      <configuration name="OneWayTraversableListTest.isLooped" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OneWayTraversableListTest_isLooped - 2019.06.27 at 21h 55m 47s.xml">
+      <configuration name="OneWayTraversableListTest.isLooped" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OneWayTraversableListTest_isLooped - 2019.06.27 at 21h 55m 50s.xml">
+      <configuration name="OneWayTraversableListTest.isLooped" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,13 +555,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33147943" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33147943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39822024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925472" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
@@ -599,14 +588,6 @@
           <line>5</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/MyList.java</url>
-          <line>8</line>
-          <properties class="SDA.Graphs.linkedList.MyList" method="addToList">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -925,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/MyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/MyListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -974,17 +948,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SDA/Graphs/linkedList/OneWayTraversableList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SDA/Graphs/linkedList/OneWayTraversableListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        <state relative-caret-position="470">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
         </state>
       </provider>
     </entry>
