@@ -1,5 +1,7 @@
 package SDA.Graphs.BFS;
 
+import SDA.Graphs.Node;
+
 public class Main {
     /*  A B C D
     * A - X X -
@@ -19,24 +21,24 @@ public class Main {
         Node G = new Node("G");
         Node H = new Node("H");
 
-        A.paths.add(B);
-        A.paths.add(C);
+        A.getPaths().add(B);
+        A.getPaths().add(C);
 
-            B.paths.add(B);
-            B.paths.add(E);
-            B.paths.add(G);
-                G.paths.add(H);
+            B.getPaths().add(B);
+            B.getPaths().add(E);
+            B.getPaths().add(G);
+                G.getPaths().add(H);
 
-            C.paths.add(D);
-            C.paths.add(F);
+            C.getPaths().add(D);
+            C.getPaths().add(F);
 
-                D.paths.add(A);
+                D.getPaths().add(A);
 
         BFS bfs = new BFS();
         bfs.search(D);
-        for (Node node: bfs.out
+        for (Node node: bfs.getOut()
              ) {
-            System.out.print(node.name+" ");
+            System.out.print(node.getName()+" ");
         }
     }
 }
